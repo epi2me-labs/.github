@@ -1,17 +1,16 @@
 # EPI2ME Labs
 
-Welcome to the EPI2ME Labs GitHub organization! We develop and maintain open-source bioinformatics tools and workflows for nanopore sequencing data analysis.
+Welcome to the EPI2ME GitHub organization! We develop and maintain open-source bioinformatics tools and workflows for Oxford Nanopore Technologies' data analysis.
 
-## About EPI2ME Labs
+## About EPI2ME on GitHub
 
-EPI2ME Labs is a collection of bioinformatics tools, workflows, and resources designed to help researchers analyze nanopore sequencing data. Our projects focus on making cutting-edge analysis accessible and reproducible for the scientific community.
+EPI2ME is a collection of bioinformatics tools, workflows, and resources designed to help researchers analyze nanopore sequencing data. Our projects focus on making cutting-edge analysis accessible and reproducible for the scientific community.
 
 ## Our Tools and Workflows
 
 We provide a variety of tools and workflows for:
 
 - **Nextflow workflows**: Production-ready bioinformatics pipelines
-- **Analysis notebooks**: Interactive Jupyter notebooks for data exploration
 - **Utility tools**: Command-line tools and libraries for nanopore data processing
 - **Community resources**: Documentation, tutorials, and examples
 
@@ -26,10 +25,6 @@ For questions and support:
 - Contact us at [nanoporetech.com/about/contact](https://nanoporetech.com/about/contact)
 
 Please note that repositories in this organization may not be proactively monitored for support requests. For more timely assistance, please use the resources above.
-
-## Contributing
-
-We welcome contributions from the community! Please check individual repository guidelines for contribution instructions.
 
 ## License
 
