@@ -1,0 +1,30 @@
+---
+name: Issue Auto-Reply
+
+'on':
+  workflow_call:
+
+jobs:
+  auto-reply:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues' && github.event.action == 'opened'
+    permissions:
+      issues: write
+    steps:
+      - name: Add auto-reply comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const message = [
+              "Thank you for opening an issue.",
+              "This repository isn't proactively monitored for support.",
+              "For more timely help you may wish to visit",
+              "https://nanoporetech.com/about/contact"
+            ].join(' ');
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: message
+            })
